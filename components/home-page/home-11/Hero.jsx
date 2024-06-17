@@ -1,6 +1,4 @@
 "use client";
-
-import Link from "next/link";
 import { useState } from "react";
 import Password1 from "../../../functions/generatePassword"; // Adjust the path as necessary
 
@@ -17,7 +15,6 @@ const Hero = () => {
   };
 
   const content = {
-    heading: "Secure Passwords Made Simple",
     subheading: 'Fortify Your Passwords Instantly.',
     btnText: "Generate",
   };
@@ -25,7 +22,7 @@ const Hero = () => {
   return (
     <>
       <h1 className="hero-heading fw-light tx-dark">
-        <span className="position-relative">{content.heading}</span>
+        <span className="position-relative">Secure</span> Passwords Made <span className="position-relative">Simple</span>
       </h1>
       <p className="text-lg mb-75 pt-60 lg-mb-40 lg-pt-40">
         {content.subheading}
