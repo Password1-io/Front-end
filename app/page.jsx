@@ -1,4 +1,4 @@
-import Home from "./home/seo-agency/page";
+import Home from "./home/page";
 export const metadata = {
   title: "Password1 - Secure Passwords Made Simple",
 };

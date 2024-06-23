@@ -4,34 +4,32 @@ const BlockContact2 = () => {
   const addressBlocks = [
     {
       icon: "/images/icon/icon_161.svg",
-      title: "Our Address",
+      title: "Home Base",
       content: (
         <>
-          1012 Pebda Parkway, Mirpur 2 <br />
-          Dhaka, Bangladesh
+          Proudly built in Los Angeles, California
         </>
       ),
     },
     {
       icon: "/images/icon/icon_162.svg",
-      title: "Contact Info",
+      title: "We're Here To Help",
       content: (
         <>
-          Open a chat or give us call at <br />
-          <a href="tel:310.841.5500" className="call">
-            310.841.5500
+          Send us an email! <br />
+          <a href="mailto:contact@password1.io" className="call">
+            contact@password1.io
           </a>
         </>
       ),
     },
     {
       icon: "/images/icon/icon_163.svg",
-      title: "Live Support",
+      title: "See Our Code",
       content: (
         <>
-          Urgent go to live chat portal <br />
-          <a href="mailto:name@email.com" className="webaddress">
-            www.supportlive.com
+          <a href="https://github.com/Password1-io/Front-end" className="webaddress">
+            Check out the Github repository!
           </a>
         </>
       ),

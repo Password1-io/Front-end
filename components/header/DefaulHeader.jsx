@@ -34,20 +34,6 @@ const DefaultHeader = () => {
               <span className="logo-text">Password1</span>
             </Link>
           </div>
-          <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
-            <Link
-              href="/login"
-              className="login-btn-three rounded-circle tran3s me-3"
-            >
-              <i className="bi bi-person" />
-            </Link>
-            <Link
-              href="/contact/contact-v1"
-              className="btn-twentyOne fw-500 tran3s d-none d-lg-block"
-            >
-              Contact us
-            </Link>
-          </div>
           {/* /.right-widget */}
           <MainMenu />
         </div>

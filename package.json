@@ -1,6 +1,6 @@
 {
-  "name": "jano-next-appdir",
-  "version": "1.5.0",
+  "name": "password1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

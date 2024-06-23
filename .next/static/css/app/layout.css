@@ -28094,36 +28094,42 @@ h6 {
 .h1,
 h1 {
   font-size: 80px;
-  line-height: 1.18em; /*done*/
+  line-height: 1.18em;
+  /*done*/
 }
 
 .h2,
 h2 {
   font-size: 58px;
   line-height: 1.29em;
-  letter-spacing: -1px; /*done*/
+  letter-spacing: -1px;
+  /*done*/
 }
 
 .h3,
 h3 {
-  font-size: 32px; /*done*/
+  font-size: 32px;
+  /*done*/
 }
 
 .h4,
 h4 {
   font-size: 24px;
-  line-height: 1.54em; /*done*/
+  line-height: 1.54em;
+  /*done*/
 }
 
 .h5,
 h5 {
   font-size: 22px;
-  line-height: 1.45em; /*done*/
+  line-height: 1.45em;
+  /*done*/
 }
 
 .h6,
 h6 {
-  font-size: 18px; /*done*/
+  font-size: 18px;
+  /*done*/
 }
 
 p {
@@ -37043,7 +37049,7 @@ body .btn-twentySix:hover:after {
 
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Forty ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-forty .bg-wrapper {
-  background: url(/_next/static/media/bg-14.593d4ea9.svg);
+  background: url(/_next/static/media/bg-4.2f03aa91.svg);
   background-repeat: repeat-y;
   max-width: 1400px;
   padding: 40px 0 0;
@@ -39560,7 +39566,7 @@ body .btn-twentySix:hover:after {
 
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Inner Banner Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .inner-banner-three .bg-wrapper {
-  background: url(/_next/static/media/bg-16.c3410dde.svg) no-repeat center;
+  background: url(/_next/static/media/bg-4.2f03aa91.svg) no-repeat center;
   background-size: cover;
   padding: 150px 0 108px;
   position: relative;
