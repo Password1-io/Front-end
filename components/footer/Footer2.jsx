@@ -3,29 +3,25 @@ const columns = [
     title: "Links",
     links: [
       { label: "Home", url: "/" },
-      { label: "Pricing", url: "/" },
       { label: "About us", url: "/" },
-      { label: "Service", url: "/" },
       { label: "Blog", url: "/" },
+      { label: "Contact", url: "/" },
     ],
   },
   {
-    title: "Support",
+    title: "Open Source",
     links: [
-      { label: "Item Support", url: "/" },
-      { label: "Forum", url: "/" },
-      { label: "Report Abuse", url: "/" },
-      { label: "Live", url: "/" },
+      { label: "Github Organization", url: "https://github.com/Password1-io" },
+      { label: "Password1 Project", url: "https://github.com/Password1-io/Front-end" },
     ],
   },
   {
-    title: "Products",
+    title: "Resources",
     links: [
-      { label: "Web hosting", url: "/" },
-      { label: "Cloud hosting", url: "/" },
-      { label: "WordPress hosting", url: "/" },
-      { label: "VPS hosting", url: "/" },
-      { label: "Dedicated hosting", url: "/" },
+      { label: "Have I Been Pwned", url: "https://haveibeenpwned.com/" },
+      { label: "Common Credentials", url: "https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials" },
+      { label: "OWASP Cheat Sheet", url: "https://cheatsheetseries.owasp.org/index.html" },
+      { label: "CISA", url: "https://www.cisa.gov/news-events/news/choosing-and-protecting-passwords" },
     ],
   },
 ];
