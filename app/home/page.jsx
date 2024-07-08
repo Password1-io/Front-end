@@ -183,23 +183,17 @@ const Home = () => {
               <Footer2 />
 
               <div className="col-md-3 col-sm-6 mb-30">
-                <h5 className="footer-title tx-dark fw-500">Our Address</h5>
+                <h5 className="footer-title tx-dark fw-500">Home Base</h5>
                 <p className="fs-17">
-                  2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states.
+                  Proudly built in Los Angeles, California.
                 </p>
                 <a
-                  href="mailto:januinc@company.com"
-                  className="email tran3s fs-17"
+                  href="mailto:contact@password1.io"
+                  className="email tran3s fs-17 mb-30"
                 >
-                  januinc@company.com
+                  contact@password1.io
                 </a>
                 <br />
-                <a
-                  href="tel:+7576994478"
-                  className="mobile tran3s fs-20 mt-20 mb-30"
-                >
-                  +757 699-4478
-                </a>
                 <Social />
               </div>
               {/* End .col-md-3 */}
