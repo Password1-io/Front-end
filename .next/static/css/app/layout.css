@@ -28272,7 +28272,7 @@ p {
   font-size: 25px;
   cursor: pointer;
   border-radius: 50%;
-  background: var(--prime-ten);
+  background: var(--prime-six);
   transition: all 0.3s ease-in-out;
 }
 
@@ -29185,8 +29185,8 @@ body .btn-twentySix:hover:after {
 .theme-main-menu.sticky-menu.fixed {
   position: fixed;
   z-index: 990;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background: #fff;
   box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.1);
 }

@@ -1,6 +1,8 @@
+import Link from "next/link";
+import Social from "@/components/home-page/home/Social";
 import BlockContact2 from "@/components/contact/BlockContact2";
 import ContactForm2 from "@/components/contact/ContactForm2";
-import Footer from "@/components/home-page/home/Footer";
+import Footer2 from "@/components/footer/Footer2";
 import Header from "@/components/home-page/home/Header";
 export const metadata = {
   title: "Contact || Password1 - Secure Passwords Made Simple",
@@ -66,25 +68,53 @@ const Contact = () => {
       </div>
       {/* /.inner-banner-three */}
 
-      {/* 
-        =============================================
-        Footer
-        ============================================== 
-        */}
-      <div className="footer-style-one theme-basic-footer position-relative">
-        <div className="shapes shape-one" />
+      {/*
+			=====================================================
+				Footer
+			=====================================================
+			*/}
+      <div className="footer-style-six theme-basic-footer position-relative">
         <div className="container">
           <div className="inner-wrapper">
-            <Footer />
+            <div className="row justify-content-between">
+              <div className="col-lg-2 footer-intro mb-40">
+                <div className="logo">
+                  <Link href="/">
+                    <img src="/images/logo/logo_01.png" alt="" width={95} />
+                  </Link>
+                </div>
+              </div>
+              {/* End .col-lg-2 */}
+
+              <Footer2 />
+
+              <div className="col-md-3 col-sm-6 mb-30">
+                <h5 className="footer-title tx-dark fw-500">Home Base</h5>
+                <p className="fs-17">
+                  Proudly built in Los Angeles, California.
+                </p>
+                <a
+                  href="mailto:contact@password1.io"
+                  className="email tran3s fs-17 mb-30"
+                >
+                  contact@password1.io
+                </a>
+                <br />
+                <Social />
+              </div>
+              {/* End .col-md-3 */}
+            </div>
+            {/* End .row */}
+
             <div className="bottom-footer">
               <p className="copyright text-center m0">
-                © {new Date().getFullYear()}
+                Copyright © {new Date().getFullYear()} {"  "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://themeforest.net/user/ib-themes"
                 >
-                  ib-themes
+                  Password1
                 </a>
               </p>
             </div>
@@ -92,7 +122,6 @@ const Contact = () => {
           {/* /.inner-wrapper */}
         </div>
       </div>
-      {/* /.footer-style-one */}
     </>
   );
 };
