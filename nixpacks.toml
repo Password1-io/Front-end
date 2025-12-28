@@ -1,14 +1,14 @@
 # Nixpacks configuration for Next.js
 
 [phases.setup]
-nixPkgs = ["nodejs_18"]
+nixPkgs = ["nodejs_18", "pnpm"]
 
 [phases.install]
-cmds = ["npm ci"]
+cmds = ["pnpm install --frozen-lockfile"]
 
 [phases.build]
-cmds = ["npm run build"]
+cmds = ["pnpm run build"]
 
 [start]
-cmd = "npm run start"
+cmd = "pnpm run start"
 
