@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Password1
 
-## Getting Started
+**One Password, Infinite Security** - Generate unique, secure passwords for every website using just one master password.
 
-First, run the development server:
+## What is Password1?
+
+Password1 is a deterministic password generator that creates unique, secure passwords for any website. Enter your master password and a website name, and Password1 will always generate the same unique password for that combination.
+
+### Key Features
+
+- 🔒 **100% Client-Side** - Your password never leaves your device
+- 🔐 **SHA-512 Encryption** - Industry-standard cryptographic hashing
+- 💾 **Zero Storage** - Nothing is saved or transmitted
+- 🌓 **Dark/Light Mode** - Comfortable viewing in any environment
+- ⚡ **Instant Generation** - Passwords update as you type
+- 📱 **Responsive Design** - Works on desktop and mobile
+
+## How It Works
+
+1. Enter your **master password** (the only password you need to remember)
+2. Enter the **website** name (e.g., "google", "amazon", "netflix")
+3. Adjust optional settings (password length, special characters)
+4. Your unique password is generated instantly
+
+The same master password + website combination will always produce the same password, so you can regenerate it anytime without storing anything.
+
+## Tech Stack
+
+- **React** - UI library
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **Web Crypto API** - SHA-512 hashing (browser-native)
+
+## Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Security
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- All password generation happens locally in your browser
+- No data is ever sent to any server
+- The algorithm is open source and auditable
+- Uses SHA-512 with multiple rounds of hashing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+MIT License - See [LICENSE](LICENSE) file for details.
 
-To learn more about Next.js, take a look at the following resources:
+## Algorithm
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The password generation algorithm (Version: June Lake) uses:
+- SHA-512 hashing with prime number iterations
+- Deterministic special character and capitalization placement
+- Guaranteed password requirements (uppercase, lowercase, numbers, special chars)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+See `src/lib/generatePassword.js` for the full implementation.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Built with security in mind. [View on GitHub](https://github.com/your-username/password1)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
