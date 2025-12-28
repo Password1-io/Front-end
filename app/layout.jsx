@@ -6,12 +6,11 @@ import "aos/dist/aos.css";
 import "../styles/index.scss";
 import ScrollToTop from "@/components/common/ScrollTop";
 
-if (typeof window !== "undefined") {
-  require("bootstrap/dist/js/bootstrap");
-}
-
 export default function RootLayout({ children }) {
   useEffect(() => {
+    // Dynamically import bootstrap JS on client-side only
+    import("bootstrap/dist/js/bootstrap");
+    
     Aos.init({
       duration: 1200,
     });
